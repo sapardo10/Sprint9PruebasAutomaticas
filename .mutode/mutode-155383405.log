@@ -1,0 +1,83 @@
+Mutode 155383405 running
+Creating a copy of your module... Done
+Loading mutators... Done
+Verifying and timing your test suite
+Took 30.60 seconds to run full test suite
+Running mutants for index.js
+MUTANT 1:	BLM Line 71:	return createBuilder(this, this._styles || [], truefalse);...	killed 13369 ms
+MUTANT 2:	BLM Line 128:	enumerable: truefalse,...	survived 22244 ms
+MUTANT 3:	BLM Line 138:	enumerable: truefalse,...	survived 22038 ms
+MUTANT 4:	CBM Line 21:	if (options.level >>= 3 || options.level < 0) {	killed 14451 ms
+MUTANT 5:	CBM Line 21:	if (options.level > 3 || options.level <<= 0) {	killed 13338 ms
+MUTANT 6:	CBM Line 28:	object.enabled = 'enabled' in options ? options.enabled : object.level >>= 0;	survived 21930 ms
+MUTANT 7:	CBM Line 157:	if (!self.enabled || self.level <=< 0 || !string) {	killed 13361 ms
+MUTANT 8:	CBM Line 188:	for (let i = 1; i <<= firstString.length; i++) {	killed 16835 ms
+MUTANT 9:	IM Line 188:	for (let i = 1; i < firstString.length; i++)--) {...	killed 5569 ms
+MUTANT 10:	MM Line 103:	const bgModel = 'bg' + model[0].toUpperCase() +- model.slice(1);	killed 13673 ms
+MUTANT 11:	MM Line 103:	const bgModel = 'bg' +- model[0].toUpperCase() + model.slice(1);	killed 12678 ms
+MUTANT 12:	MM Line 165:	string = code.open + string.replace(code.closeRe, code.open) +- code.close;	killed 12364 ms
+MUTANT 13:	MM Line 165:	string = code.open +- string.replace(code.closeRe, code.open) + code.close;	killed 11882 ms
+MUTANT 14:	MM Line 190:	String(arguments_[i -+ 1]).replace(/[{}\\]/g, '\\$&'),	killed 12304 ms
+MUTANT 15:	NCM Line 21:	if (options.level ><= 3 || options.level < 0) {	killed 11825 ms
+MUTANT 16:	NCM Line 21:	if (options.level > 3 || options.level <>= 0) {	killed 12622 ms
+MUTANT 17:	NCM Line 27:	object.level = options.level ===!== undefined ? colorLevel : options.level;	killed 3989 ms
+MUTANT 18:	NCM Line 28:	object.enabled = 'enabled' in options ? options.enabled : object.level ><= 0;	killed 12371 ms
+MUTANT 19:	NCM Line 157:	if (!self.enabled || self.level <=> 0 || !string) {	killed 12214 ms
+MUTANT 20:	NCM Line 188:	for (let i = 1; i <>= firstString.length; i++) {	killed 3850 ms
+MUTANT 21:	NLM Line 21:	if (options.level > 30 || options.level < 0) {...	killed 11728 ms
+MUTANT 22:	NLM Line 21:	if (options.level > 32 || options.level < 0) {...	killed 13557 ms
+MUTANT 23:	NLM Line 21:	if (options.level > 34 || options.level < 0) {...	survived 23647 ms
+MUTANT 24:	NLM Line 21:	if (options.level > 3172039 || options.level < 0) {...	killed 14684 ms
+MUTANT 25:	NLM Line 21:	if (options.level > 3 || options.level < 0-1) {...	killed 16821 ms
+MUTANT 26:	NLM Line 21:	if (options.level > 3 || options.level < 01) {...	killed 16370 ms
+MUTANT 27:	NLM Line 21:	if (options.level > 3 || options.level < 083830) {...	killed 15885 ms
+MUTANT 28:	NLM Line 26:	const colorLevel = stdoutColor ? stdoutColor.level : 0-1;...	killed 16828 ms
+MUTANT 29:	NLM Line 26:	const colorLevel = stdoutColor ? stdoutColor.level : 01;...	killed 14466 ms
+MUTANT 30:	NLM Line 26:	const colorLevel = stdoutColor ? stdoutColor.level : 0985926;...	killed 15694 ms
+MUTANT 31:	NLM Line 28:	object.enabled = 'enabled' in options ? options.enabled : object.level > 0-1;...	survived 22685 ms
+MUTANT 32:	NLM Line 28:	object.enabled = 'enabled' in options ? options.enabled : object.level > 01;...	killed 16440 ms
+MUTANT 33:	NLM Line 28:	object.enabled = 'enabled' in options ? options.enabled : object.level > 052864;...	killed 14630 ms
+MUTANT 34:	NLM Line 103:	const bgModel = 'bg' + model[0[-1].toUpperCase() + model.slice(1);...	killed 17512 ms
+MUTANT 35:	NLM Line 103:	const bgModel = 'bg' + model[01].toUpperCase() + model.slice(1);...	killed 14808 ms
+MUTANT 36:	NLM Line 103:	const bgModel = 'bg' + model[0132590].toUpperCase() + model.slice(1);...	killed 14322 ms
+MUTANT 37:	NLM Line 103:	const bgModel = 'bg' + model[0].toUpperCase() + model.slice(10);...	killed 12650 ms
+MUTANT 38:	NLM Line 103:	const bgModel = 'bg' + model[0].toUpperCase() + model.slice(12);...	killed 11769 ms
+MUTANT 39:	NLM Line 103:	const bgModel = 'bg' + model[0].toUpperCase() + model.slice(1498190);...	killed 11285 ms
+MUTANT 40:	NLM Line 157:	if (!self.enabled || self.level <= 0-1 || !string) {...	killed 11650 ms
+MUTANT 41:	NLM Line 157:	if (!self.enabled || self.level <= 01 || !string) {...	killed 12270 ms
+MUTANT 42:	NLM Line 157:	if (!self.enabled || self.level <= 0557034 || !string) {...	killed 11654 ms
+MUTANT 43:	NLM Line 185:	const arguments_ = strings.slice(10);...	killed 12005 ms
+MUTANT 44:	NLM Line 185:	const arguments_ = strings.slice(12);...	killed 13802 ms
+MUTANT 45:	NLM Line 185:	const arguments_ = strings.slice(1111806);...	killed 12996 ms
+MUTANT 46:	NLM Line 186:	const parts = [firstString.raw[0[-1]];...	killed 13903 ms
+MUTANT 47:	NLM Line 186:	const parts = [firstString.raw[01]];...	killed 13329 ms
+MUTANT 48:	NLM Line 186:	const parts = [firstString.raw[0104809]];...	killed 16121 ms
+MUTANT 49:	NLM Line 188:	for (let i = 10; i < firstString.length; i++) {...	killed 15171 ms
+MUTANT 50:	NLM Line 188:	for (let i = 12; i < firstString.length; i++) {...	killed 14748 ms
+MUTANT 51:	NLM Line 188:	for (let i = 1730; i < firstString.length; i++) {...	killed 13976 ms
+MUTANT 52:	NLM Line 190:	String(arguments_[i - 10]).replace(/[{}\\]/g, '\\$&'),...	killed 14958 ms
+MUTANT 53:	NLM Line 190:	String(arguments_[i - 12]).replace(/[{}\\]/g, '\\$&'),...	killed 13298 ms
+MUTANT 54:	NLM Line 190:	String(arguments_[i - 1697941]).replace(/[{}\\]/g, '\\$&'),...	killed 16451 ms
+MUTANT 55:	RAEM Line 9:	'ansi',	killed 4204 ms
+MUTANT 56:	RAEM Line 10:	'ansi',	killed 4047 ms
+MUTANT 57:	RAEM Line 11:	'ansi256',	killed 4075 ms
+MUTANT 58:	RAEM Line 12:	'ansi16m'	killed 4084 ms
+MUTANT 59:	RAEM Line 16:	const skipModels = new Set(['gray']);([]);	survived 23347 ms
+MUTANT 60:	RAEM Line 64:	return createBuilder(this, [...(this._styles || []), [style], this._isEmpty);	killed 13109 ms
+MUTANT 61:	RAEM Line 64:	return createBuilder(this, [...(this._styles || []),[])], style], this._isEmpty);	killed 16303 ms
+MUTANT 62:	RAEM Line 91:	return createBuilder(this, [...(this._styles || []), [codes], this._isEmpty);	killed 14067 ms
+MUTANT 63:	RAEM Line 91:	return createBuilder(this, [...(this._styles || []),[])], codes], this._isEmpty);	killed 4002 ms
+MUTANT 64:	RAEM Line 114:	return createBuilder(this, [...(this._styles || []), [codes], this._isEmpty);	killed 11434 ms
+MUTANT 65:	RAEM Line 114:	return createBuilder(this, [...(this._styles || []),[])], codes], this._isEmpty);	killed 3840 ms
+MUTANT 66:	RAEM Line 186:	const parts = [firstString.raw[0]];[];	killed 12294 ms
+MUTANT 67:	RFCAM Line 2:	const escapeStringRegexp = require('escape-string-regexp');();	killed 3780 ms
+MUTANT 68:	RFCAM Line 3:	const ansiStyles = require('ansi-styles');();	killed 3823 ms
+MUTANT 69:	RFCAM Line 4:	const {stdout: stdoutColor} = require('supports-color');();	killed 3775 ms
+MUTANT 70:	RFCAM Line 5:	const template = require('./templates.js');();	killed 3907 ms
+MUTANT 71:	RFCAM Line 18:	const styles = Object.create(null);();	killed 15992 ms
+MUTANT 72:	RFCAM Line 33:	return chalkFactory(options);();	killed 4058 ms
+MUTANT 73:	RFCAM Line 39:	applyOptions(chalk, options);	killed 12373 ms
+MUTANT 74:	RFCAM Line 39:	applyOptions(chalk, options);	killed 4014 ms
+MUTANT 75:	RFCAM Line 41:	chalk.template = (...arguments_) => chalkTag(chalk.template, ...(...arguments_);	killed 12194 ms
+MUTANT 76:	RFCAM Line 41:	chalk.template = (...arguments_) => chalkTag(chalk.template, ...arguments_);	killed 4009 ms
+MUTANT 77:	RFCAM Line 43:	Object.setPrototypeOf(chalk, Chalk.prototype);	killed 11756 ms
